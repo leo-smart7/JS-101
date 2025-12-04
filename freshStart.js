@@ -1,5 +1,5 @@
-let js = "amazing";
-console.log(4+98+61-19);
+/*let js = "amazing";
+console.log(4+98+61-19);*/
 
 // Data types
 /*let javaScriptIsFun = true;
@@ -36,11 +36,35 @@ let sampleTwo = "I'm Leo, I'm an E-rank developer";
 // alert(sample1+""+sampleTwo);
 console.log(sample1+""+sampleTwo);*/
 
-let calc = (4 * 14) + 9;
+/*let calc = (4 * 14) + 9;
 console.log(calc);
 
 const skillLevel = 5;
 const skillFourYrs = 1000;
 console.log(skillLevel > skillFourYrs);
 console.log(skillFourYrs > skillLevel);
-console.log(typeof skillLevel);
+console.log(typeof skillLevel);*/
+
+// Test 1
+const markWeight = 78;
+const markHeight = 1.69;
+const johnWeight = 92;
+const johnHeight = 1.95;
+
+const BMI1 = markWeight/(markHeight * markHeight);
+const BMI2 = johnWeight/(johnHeight * johnHeight);
+const HigherBMI = BMI1 > BMI2;
+console.log(BMI1, BMI2);
+console.log(HigherBMI)
+
+// Test 2
+const marksWeight = 95;
+const marksHeight = 1.88;
+const johnsWeight = 85;
+const johnsHeight = 1.76;
+
+const BMIone = marksWeight/(marksHeight * marksHeight);
+const BMItwo = johnsWeight/(johnsHeight * johnsHeight);
+const BMI = BMIone > BMItwo;
+console.log(BMIone, BMItwo);
+console.log(BMI);
