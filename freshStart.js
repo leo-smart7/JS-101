@@ -51,14 +51,14 @@ const markHeight = 1.69;
 const johnWeight = 92;
 const johnHeight = 1.95;
 
-const BMI1 = markWeight/(markHeight * markHeight);
-const BMI2 = johnWeight/(johnHeight * johnHeight);
-const HigherBMI = BMI1 > BMI2;
-console.log(BMI1, BMI2);
-console.log(HigherBMI)
+const MarkBMI = markWeight/(markHeight * markHeight);
+const JohnBMI = johnWeight/(johnHeight * johnHeight);
+const HigherBMI = MarkBMI > JohnBMI;
+console.log(MarkBMI, JohnBMI);
+console.log(HigherBMI);*/
 
 // Test 2
-const marksWeight = 95;
+/*const marksWeight = 95;
 const marksHeight = 1.88;
 const johnsWeight = 85;
 const johnsHeight = 1.76;
@@ -84,7 +84,7 @@ somethings...nice 👍`;
 console.log(Test);*/
 
 // Making decision
-const canDrive = 15;
+/*const canDrive = 15;
 const notDrive = 17;
 const age = canDrive > notDrive;
 
@@ -101,4 +101,25 @@ if (birthYear <= 2000) {
 } else {
     century = 21;
 }
-console.log(century);
+console.log(century);*/
+
+// Coding challenge #2
+/*const markWeight = 78;
+const markHeight = 1.69;
+const johnWeight = 92;
+const johnHeight = 1.95;
+
+const MarkBMI = markWeight/(markHeight * markHeight);
+const JohnBMI = johnWeight/(johnHeight * johnHeight);
+const HigherBMI = MarkBMI > JohnBMI;
+
+if (HigherBMI) {
+    console.log(`Mark's BMI (${MarkBMI}) is higher than John's (${JohnBMI})!`);
+}else  {
+    console.log(`John's BMI (${JohnBMI}) is higher than Mark's (${MarkBMI})!`)
+}*/
+
+// Type conversion and coercion
+const inputYear = '1991';
+console.log(Number(inputYear) + 20);
+console.log(String(24) + 20);
