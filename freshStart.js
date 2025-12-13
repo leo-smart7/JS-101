@@ -119,7 +119,92 @@ if (HigherBMI) {
     console.log(`John's BMI (${JohnBMI}) is higher than Mark's (${MarkBMI})!`)
 }*/
 
-// Type conversion and coercion
-const inputYear = '1991';
+// Type conversion 
+/*const inputYear = '1991';
 console.log(Number(inputYear) + 20);
-console.log(String(24) + 20);
+console.log(String(24) + 20);*/
+
+// Type Coercion
+/*console.log("I'm " + 24 + " Years old!");
+console.log('23'-'10'- 3);
+console.log('54' * '62');
+console.log('1' + 1);*/
+
+// Truthy and falsy values
+// 5 falsy values: 0,'', undefined, NaN, null
+
+/*const money = "";
+if (money) {
+    console.log("Don't spend it all")
+}else {
+    console.log("Go get a job!")
+}*/
+
+// Equality Operators
+/*const age = 13;
+
+if (age) {
+    console.log(`You're officially an adult!`)
+}else {
+    console.log(`You're still a baby...lol`)
+}*/
+
+/*const favourite = prompt(`what's you're favourite food?`);
+
+if (favourite === 'rice') {
+    console.log(`Cool! rice is an amazing food!`)
+}else if (favourite === 'beans') {
+    console.log(`beans is a good food too!`)
+}else {
+    console.log(`Not rice or beans`)
+}*/
+
+/*const hasDriversLicence = true;
+const hasGoodVision = true;
+console.log (hasDriversLicence && hasGoodVision);
+console.log (hasDriversLicence || hasGoodVision);
+console.log (!hasDriversLicence);
+
+// if (hasDriversLicence && hasGoodVision) {
+//     console.log (`Sarah should drive!`)
+// }else {
+//     console.log(`Someone else should!`)
+// }
+
+const isTired = false;
+// console.log (hasDriversLicence || hasGoodVision && isTired);
+
+if (hasDriversLicence && hasGoodVision && !isTired) {
+    console.log (`Sarah should drive!`)
+}else {
+    console.log(`Someone else should!`)
+}*/
+
+// Coding Challenge #3
+//  const dolphineScore = (96 + 108 + 89) / 3;
+//  const  koalaScore = (88 + 91 + 110) / 3;
+//  console.log (dolphineScore, koalaScore);
+
+//  if (dolphineScore > koalaScore) {
+//     console.log(`The dolphine team win!`)
+//  }else if (koalaScore > dolphineScore) {
+//     console.log(`The koala team win!`)
+//  }else if (dolphineScore === koalaScore) {
+//     console.log(`It's a tie!`)
+//  }
+
+ /*const dolphineScore = (97 + 112 + 101) / 3;
+ const  koalaScore = (109 + 95 + 106) / 3;
+ console.log (dolphineScore, koalaScore);
+
+ if (dolphineScore > koalaScore && dolphineScore >= 100) {
+    console.log(`The dolphine team win!`)
+ }else if (koalaScore > dolphineScore && koalaScore >= 100) {
+    console.log(`The koala team win!`)
+ }else if (dolphineScore === koalaScore && dolphineScore >= 100 && koalaScore >= 100) {
+    console.log(`Both team wins the trophy!`)
+ }else {
+    console.log(`No one won the trophy`)
+ }*/
+
+// Switch Statement
