@@ -193,18 +193,120 @@ if (hasDriversLicence && hasGoodVision && !isTired) {
 //     console.log(`It's a tie!`)
 //  }
 
- /*const dolphineScore = (97 + 112 + 101) / 3;
- const  koalaScore = (109 + 95 + 106) / 3;
- console.log (dolphineScore, koalaScore);
+/*const dolphineScore = (97 + 112 + 101) / 3;
+const  koalaScore = (109 + 95 + 106) / 3;
+console.log (dolphineScore, koalaScore);
 
- if (dolphineScore > koalaScore && dolphineScore >= 100) {
-    console.log(`The dolphine team win!`)
- }else if (koalaScore > dolphineScore && koalaScore >= 100) {
-    console.log(`The koala team win!`)
- }else if (dolphineScore === koalaScore && dolphineScore >= 100 && koalaScore >= 100) {
-    console.log(`Both team wins the trophy!`)
- }else {
-    console.log(`No one won the trophy`)
- }*/
+if (dolphineScore > koalaScore && dolphineScore >= 100) {
+   console.log(`The dolphine team win!`)
+}else if (koalaScore > dolphineScore && koalaScore >= 100) {
+   console.log(`The koala team win!`)
+}else if (dolphineScore === koalaScore && dolphineScore >= 100 && koalaScore >= 100) {
+   console.log(`Both team wins the trophy!`)
+}else {
+   console.log(`No one won the trophy`)
+}*/
+
+// let mood = prompt (`How are you feeling?`)
+// if (mood === `Happy`) {
+//     console.log (`Keep smiling 😄`)
+// }else if (mood === `Sad`) {
+//     console.log(`Sending you postive vibes ♥️`)
+// }else if (mood === `Angry`) {
+//     console.log(`You've got to chill out man 😤`)
+// }else {
+//     console.log(`Go and hug transformer 🙂‍↔️`)
+// }
+
+// let secretNumber = 7;
+// let guess = 5;
+
+// if (secretNumber === guess) {
+//     console.log(`Correct! you win🥀`)
+// }else {
+//     console.log(`Wrong guess! ❌ Try again`)
+// }
+
+// let age = prompt(`How old are you?`);
+
+// if (age >= 18) {
+//     console.log (`Welcome! you have full access.`)
+// }else {
+//     console.log(`Sorry! you must be 18+`)
+// }
+
+// Personal test
+/*let age = 18;
+let hasAccessCard = true;
+let isBanned = false;
+
+if (age >= 18 && hasAccessCard && !isBanned) {
+    console.log(`This user is authorized to join this page!!`);
+}else {
+    console.log(`This user did not meet the specified requirements`);
+}*/
 
 // Switch Statement
+const day = 'Monday';
+
+// switch (day) {
+//     case 'Monday':
+//         console.log(`I literally plan my week looking for new places to code!`);
+//         break;
+//     case 'Tuesday':
+//     case 'Wednesday':
+//         console.log(`Still on the same rountine!`);
+//         break;
+//     case 'Thursday':
+//         console.log(`I'm practically at home thinking about where to code`);
+//         break;
+//     case 'Friday':
+//         console.log(`Thinking of cool shii to ship!`);
+//         break;
+//     case 'Saturday':
+//         console.log(`Ship! Ship! Ship!`);
+//         break;
+//     case 'Sunday':
+//         console.log(`Spend the weekend resting!`);
+//         break;
+//     default:
+//         console.log(`This input is invalid!`);
+// }
+
+/*if (day === 'Monday') {
+    console.log(`I literally plan my week looking for new places to code`);
+} else if (day === 'Tuesday' || day === 'Wednesday') {
+    console.log(`Still on the same rountine!`);
+} else if (day === 'Thursday') {
+    console.log(`I'm practically at home thinking about where to code`);
+} else if (day === 'Friday') {
+    console.log(`Thinking of cool shii to ship!`);
+} else if (day === 'Saturday') {
+    console.log(`Ship! Ship! Ship!`);
+} else if (day === 'Sunday') {
+    console.log(`Spend the weekend resting!`);
+} else {
+    console.log(`This input is invalid!`);
+}*/
+
+/*const hero = 'Warrior';
+
+switch (hero) {
+    case 'Mage':
+        console.log(`You chose Mage! You start with a Wooden Staff and a spell book`);
+        break;
+    case 'Healer':
+        console.log(`You chose Healer! You start with a Potion belt and a Mace.`);
+        break;
+    case 'Rogue':
+        console.log(`You chose Rogue! You start with two Daggers and a cloak.`);
+        break;
+    case 'Warrior':
+    case 'paladin':
+        console.log(`You chose Warrior! You start with a Great Sword and Heavy Armor.`);
+        break;
+    default:
+        console.log(`Invalid class! You are now a civilian with a pitchfork.`);
+}*/
+
+// Ternary Operator
