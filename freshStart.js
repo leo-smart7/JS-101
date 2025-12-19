@@ -310,3 +310,17 @@ switch (hero) {
 }*/
 
 // Ternary Operator
+/*let age = 19;
+// age >= 19 ? console.log(`I like to drink wine!`) :
+//     console.log(`I like to drink water!`);
+
+const drink = age >= 19 ? 'drink 🍷': 'water 💧'; 
+console.log (drink);
+
+console.log (`I like to drink ${age >= 19 ? 'drink 🍷': 'water 💧'}`) */
+
+// Coding challenge #4
+let bill = 430;
+let tip = bill >= 50 && bill <= 300 ?  bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`);
