@@ -25,4 +25,3 @@ console.log(fruitMaker);
 // console.log(fruitProcessor(7, 2));
 // console.log(fruitProcessor(4, 0));
 
-function fruitBlender(watermelon, grape)
