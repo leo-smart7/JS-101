@@ -25,3 +25,18 @@ console.log(fruitMaker);
 // console.log(fruitProcessor(7, 2));
 // console.log(fruitProcessor(4, 0));
 
+// Self Practice on Functions
+function fruit(apples, oranges) {
+    const fruitJuice = `I made fruit juice with ${apples} apples, and ${oranges} oranges!`;
+    return fruitJuice;
+}
+
+const fruitMixer = fruit(4, 7);
+console.log(fruitMixer);
+
+function anime(demonslayer, naruto) {
+    const animeOtaku = `I love watching ${demonslayer} and ${naruto}`;
+    return animeOtaku;
+}
+
+console.log(anime('demon slayer', 'Naruto'));
