@@ -42,7 +42,7 @@ function anime(demonslayer, naruto) {
 console.log(anime('demon slayer', 'Naruto'));*/
 
 // Function declartion
-/*function calcAge1(birthyear) {
+function calcAge1(birthyear) {
     return 2037 - birthyear;
 }
 const age1 = calcAge1(1985);
@@ -52,21 +52,21 @@ const calcAge2 = function (birthyear) {
     return 2037 - birthyear;
 }
 const age2 = calcAge2(1985);
-console.log(age2, age1);*/
+console.log(age2, age1);
 
 // Arrow functions
-const calcAge3 = birthyear => 2037 - birthyear;
-const age3 = calcAge3(1985);
-console.log(age3);
+// const calcAge3 = birthyear => 2037 - birthyear;
+// const age3 = calcAge3(1985);
+// console.log(age3);
 
-const yearsUntilRetirement = (birthyear, firstname) => {
-    const age = 2037 - birthyear;
-    const retirement = 67 - age;
-    // return retirement;
-    return `${firstname} retires in ${retirement} years`;
-}
+// const yearsUntilRetirement = (birthyear, firstname) => {
+//     const age = 2037 - birthyear;
+//     const retirement = 67 - age;
+//     // return retirement;
+//     return `${firstname} retires in ${retirement} years`;
+// }
 
-console.log(yearsUntilRetirement(1985, 'Mark'));
-console.log(yearsUntilRetirement(1980, 'James'));
+// console.log(yearsUntilRetirement(1985, 'Mark'));
+// console.log(yearsUntilRetirement(1980, 'James'));
 
 // Functions calling other functions
