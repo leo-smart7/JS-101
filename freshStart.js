@@ -247,7 +247,7 @@ if (age >= 18 && hasAccessCard && !isBanned) {
 }*/
 
 // Switch Statement
-const day = 'Monday';
+// const day = 'Monday';
 
 // switch (day) {
 //     case 'Monday':
