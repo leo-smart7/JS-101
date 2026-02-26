@@ -48,4 +48,18 @@ const yearsUntilRetirement = birthYear => {
     const retirement = 75 - age;
     return retirement;
 }
-console.log(yearsUntilRetirement(1982))
+console.log(yearsUntilRetirement(1982));
+
+// Funtions calling other functions 
+function cutFruitPieces (fruit) {
+    return fruit * 4;
+}
+
+function fruitprocessor(apples, oranges) {
+    const applePieces = cutFruitPieces(apples)
+    const orangePieces = cutFruitPieces(oranges)
+
+    const juice = `Let's make some fruitjuice with ${applePieces} apple pieces, and ${orangePieces} orange pieces.`
+    return juice;
+}
+console.log (fruitprocessor(2, 4));
