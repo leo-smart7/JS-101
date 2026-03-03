@@ -78,13 +78,13 @@ const checkWinner = function (avgdolphines, avgKoalas) {
         console.log(`Dolphines win 🏆(${avgdolphines} VS ${avgKoalas})`)
     } else if (avgKoalas >= 2 * avgdolphines) {
         console.log(`Koala's win 🏆 (${avgKoalas} VS ${avgdolphines})`)
-    }else {
+    } else {
         console.log(`It's a tie!`)
     }
 }
 
-checkWinner (scoreDolphines, scoreKoalas);
-checkWinner (110, 300)
+checkWinner(scoreDolphines, scoreKoalas);
+checkWinner(110, 300)
 
 // Test 2
 scoreDolphines = calcAverage(85, 54, 41);
@@ -105,7 +105,7 @@ const bio = ['Leonard', 'Mustafa', 2026 - 2003, friends];
 console.log(bio);
 
 const calcAge = function (birthYear) {
-    return 2037  - birthYear;
+    return 2037 - birthYear;
 }
 
 const year = [1990, 1967, 2002, 201, 2018];
@@ -114,5 +114,80 @@ const age2 = calcAge(year[1]);
 const age3 = calcAge(year[year.length - 1]);
 console.log(age1, age2, age3);
 
-const ager = [calcAge(year[0]), calcAge(year[1]), calcAge(year[year.length - 1])] 
+const ager = [calcAge(year[0]), calcAge(year[1]), calcAge(year[year.length - 1])]
 console.log(ager);
+
+const friend = ['Micheal', 'James', 'Anthony'];
+friend.push('Jonathan');
+console.log(friend);
+friend.unshift('Kai');
+console.log(friend);
+friend.pop();
+console.log(friend)
+
+// Coding challenge #2
+const calcTip = function (bill) {
+    let tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+    return tip;
+}
+// console.log(calcTip(100));
+const bills = [125, 555, 44];
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
+console.log(bills, tips, total);
+
+// Objects
+const leoArray = [
+    'Leonard',
+    'Nwagu',
+    2026 - 2003,
+    ['Matthew', 'Mark', 'Luke']
+]
+
+const nwaObj = {
+    firstName: 'Leonard',
+    lastName: 'Nwagu',
+    age: 2026 - 2003,
+    friends: ['Matthew', 'Mark', 'Luke']
+};
+
+console.log(nwaObj);
+console.log(nwaObj.firstName);
+console.log(nwaObj.lastName);
+
+//Personal Test
+function add(a, c) {
+    return a + c;
+}
+console.log(add(5, 8));
+/////////////////////
+function isEven(num) {
+    if (num === 2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isEven(2));
+console.log(isEven(7));
+/////////////////////
+function grade(score) {
+    if (score >= 90) {
+        return "A";
+    } else if (score >= 80) {
+        return "B";
+    }else if (score >= 70) {
+        return "C";
+    }else {
+        return "F";
+    }
+}
+
+console.log(grade(76));
+/////////////
+function maxOfThree(a, b, c) {
+    return Math.max(a, b, c);
+}
+const numberArray = [10, 12, 30]
+console.log (maxOfThree(10, 12, 30));
