@@ -1,6 +1,6 @@
 'use strict';
 // Function
-function logger() {
+/*function logger() {
     console.log("Ice cream");
 }
 
@@ -155,39 +155,40 @@ console.log(nwaObj);
 console.log(nwaObj.firstName);
 console.log(nwaObj.lastName);
 
-//Personal Test
-function add(a, c) {
-    return a + c;
-}
-console.log(add(5, 8));
-/////////////////////
-function isEven(num) {
-    if (num === 2) {
-        return true;
-    } else {
-        return false;
-    }
-}
+console.log(nwaObj.lastName); // Personally I prefer this method, it's more easier to use 
+console.log(nwaObj['firstName']); // Here you can put any expression you like
 
-console.log(isEven(2));
-console.log(isEven(7));
-/////////////////////
-function grade(score) {
-    if (score >= 90) {
-        return "A";
-    } else if (score >= 80) {
-        return "B";
-    }else if (score >= 70) {
-        return "C";
-    }else {
-        return "F";
-    }
-}
+const nameKey = 'Name';
+console.log(nwaObj['first' + nameKey]);
+console.log(nwaObj['last' + nameKey]);
 
-console.log(grade(76));
-/////////////
-function maxOfThree(a, b, c) {
-    return Math.max(a, b, c);
-}
-const numberArray = [10, 12, 30]
-console.log (maxOfThree(10, 12, 30));
+// const interestedIn = prompt(`What do you want to know about leo? choose between firstName, Lastname, Age, Friends?`);
+// console.log(nwaObj[interestedIn]);
+
+// if (nwaObj[interestedIn]) {
+//     console.log(nwaObj[interestedIn]);
+// } else {
+//     console.log("This data doesn't exist!")
+// }
+
+nwaObj.location = 'Owerri, Imo state';
+nwaObj.twitter = '@Leo_Codes';
+console.log(nwaObj);
+
+console.log (`${nwaObj.firstName} has ${nwaObj.friends.length}, but he's best friend is ${nwaObj.friends[0]}`);*/
+
+// Object Method
+const nwaObj = {
+    firstName: 'Leonard',
+    lastName: 'Nwagu',
+    age: 2003,
+    friends: ['Matthew', 'Mark', 'Luke'],
+    hasDriversLicence: true,
+
+    calcAge: function (birthYear) {
+        return 2030 - birthYear;
+    }
+};
+
+console.log(nwaObj.calcAge(2003));
+console.log(nwaObj['calcAge'](2003));
