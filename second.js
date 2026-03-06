@@ -181,14 +181,35 @@ console.log (`${nwaObj.firstName} has ${nwaObj.friends.length}, but he's best fr
 const nwaObj = {
     firstName: 'Leonard',
     lastName: 'Nwagu',
-    age: 2003,
+    age8: 2003,
     friends: ['Matthew', 'Mark', 'Luke'],
     hasDriversLicence: true,
 
-    calcAge: function (birthYear) {
-        return 2030 - birthYear;
+    // calcAge: function (birthYear) {
+    //     return 2030 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     // console.log(this)
+    //     return 2030 - this.age;
+    // } 
+
+    calcAge: function () {
+        this.age = 2030 - this.age8;
+        return this.age;
+    },
+
+    getSummary: function () {
+
     }
+
 };
 
-console.log(nwaObj.calcAge(2003));
-console.log(nwaObj['calcAge'](2003));
+console.log(nwaObj.calcAge());
+
+console.log(nwaObj.age);
+console.log(nwaObj.age);
+console.log(nwaObj.age);
+
+// console.log(nwaObj['calcAge'](2003));
+console.log(jonas.getSummary());
