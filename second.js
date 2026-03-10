@@ -178,7 +178,7 @@ console.log(nwaObj);
 console.log (`${nwaObj.firstName} has ${nwaObj.friends.length}, but he's best friend is ${nwaObj.friends[0]}`);*/
 
 // Object Method
-const nwaObj = {
+/*const nwaObj = {
     firstName: 'Leonard',
     lastName: 'Nwagu',
     birthYear: 2003,
@@ -194,17 +194,19 @@ const nwaObj = {
     //     return 2030 - this.birthYear;
     // } 
 
-    // calcAge: function () {
-    //     this.age = 2030 - this.birthYear;
-    //     return this.age;
-    // },
+    calcAge: function () {
+        this.age = 2030 - this.birthYear;
+        return this.age;
+    },
 
     getSummary: function () {
-        
-        return this.challenge;
+      return `${this.firstName} is a ${this.calcAge()} years old ${this.job} and he has ${this.hasDriversLicence ? 'a' : 'no'} driver's license` 
     }
 
 };
+
+nwaObj.job = `Teacher`;
+console.log(nwaObj);
 
 // console.log(nwaObj.calcAge());
 
@@ -213,4 +215,32 @@ const nwaObj = {
 // console.log(nwaObj.age);
 
 // console.log(nwaObj['calcAge'](2003));
-console.log(nwaObj.getSummary());
+console.log(nwaObj.getSummary());*/
+
+// Coding challenge #2
+const markBMI = {
+    markFullName: 'Mark Miller',
+    markBodyWeight: 78,
+    height: 1.69,
+
+    calcBMI: function () {
+        this.bodyWeight = this.markBodyWeight / (this.height * this.height);
+        return this.bodyWeight;
+    }
+};
+
+const johnBMI = {
+    johnFullName: 'John Smith',
+    johnBodyWeight: 92,
+    height: 1.97,
+
+    calcBMI: function () {
+        this.bodyWeight = this.johnBodyWeight / (this.height * this.height);
+        return this.bodyWeight;
+    }
+};
+
+console.log(markBMI.calcBMI());
+console.log(johnBMI.calcBMI());
+
+console.log(`${markBMI.markFullName} BMI (${Math.round(markBMI.bodyWeight)}), is higher that John's (${Math.round(johnBMI.bodyWeight)})!`);
