@@ -217,8 +217,8 @@ console.log(nwaObj);
 // console.log(nwaObj['calcAge'](2003));
 console.log(nwaObj.getSummary());*/
 
-// Coding challenge #2
-const markBMI = {
+// Coding challenge #3
+/*const markBMI = {
     markFullName: 'Mark Miller',
     markBodyWeight: 78,
     height: 1.69,
@@ -243,4 +243,16 @@ const johnBMI = {
 console.log(markBMI.calcBMI());
 console.log(johnBMI.calcBMI());
 
-console.log(`${markBMI.markFullName} BMI (${Math.round(markBMI.bodyWeight)}), is higher that John's (${Math.round(johnBMI.bodyWeight)})!`);
+console.log(`${markBMI.markFullName} BMI (${Math.round(markBMI.bodyWeight)}), is higher that John's (${Math.round(johnBMI.bodyWeight)})!`);*/
+
+// Iteration The For Loop
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋`);
+}
+
+const leoArray = [
+    'Leonard',
+    'Nwagu',
+    2026 - 2003,
+    ['Matthew', 'Mark', 'Luke']
+]
